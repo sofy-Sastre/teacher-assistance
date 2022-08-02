@@ -1,0 +1,12 @@
+.boton {
+    background: rgb(105,101,126);
+    background: linear-gradient(0deg, rgba(105,101,126,1) 6%, rgba(105,139,166,1) 100%);
+    margin-top: 60px;
+    width: 308px ;
+    height: 35px ;
+    border-radius: 8px;
+    font-size: 20px;
+    border: none;
+    font-weight: bold;
+    color:  #fff;
+}
