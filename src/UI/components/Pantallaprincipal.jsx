@@ -1,6 +1,6 @@
  import react, {Fragment} from "react";
 
-export default function Pantallapincipal ();{
+export default function Pantallapincipal (){
 return(
 
     <view>
