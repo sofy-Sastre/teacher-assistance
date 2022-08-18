@@ -1,5 +1,6 @@
 import { Fragment } from "react";
-import "./styles/Registro.css"
+import Input2 from "./input2";
+// import "./styles/Registro.css"
 
 export default function Registro() {
     return (
@@ -9,13 +10,15 @@ export default function Registro() {
                 <p>Complete los siguientes datos</p>
                 <form className="form" >
                     <div>
-                        <label htmlFor="nombre">Nombre completo</label><br />
-                        <input type="text" id="nombre" name="nombre" placeholder="Exequiel Wiedermann" />
+                        {/* <label htmlFor="nombre">Nombre completo</label><br />
+                        <input <type="text" id="nombre" name="nombre" placeholder="Exequiel Wiedermann" /> */}
+                        <Input2 nombre="Nombre Completo" place="ezequiel wiedermann"></Input2>
                     </div>
 
                     <div>
-                        <label htmlFor="numero">N° de Empleado</label><br />
-                        <input type="text" id="numero" name="numero" placeholder="****" />
+                        {/* <label htmlFor="numero">N° de Empleado</label><br />
+                        <input type="text" id="numero" name="numero" placeholder="****" /> */}
+                        <Input2 nombre="N° empleado" place="*****"></Input2>
                     </div>
 
                     <div>
@@ -30,7 +33,7 @@ export default function Registro() {
 
                     <div>
                         <button>Crear Cuenta</button><br />
-                        <p><a href="#">¿Ya tienes cuenta? Iniciar sesion</a></p>
+                        <p><a>¿Ya tienes cuenta? Iniciar sesion</a></p>
                     </div>
 
                 </form>
