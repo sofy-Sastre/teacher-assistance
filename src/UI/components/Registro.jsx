@@ -10,7 +10,7 @@ export default function Registro() {
                 <p>Complete los siguientes datos</p>
                 <form className="form" >
                     <div>
-                        <Input2 nombre="Nombre Completo" place="ezequiel wiedermann"></Input2>
+                        <Input2 nombre="Nombre Completo" place="Nombre y Apellido"></Input2>
                     </div>
 
                     <div>
