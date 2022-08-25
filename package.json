@@ -13,8 +13,8 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "build": "react-scripts build --openssl-legacy-provider",
+  "scripts": {  
+    "build": "NODE_OPTIONS=--openssl-legacy-provider lerna run build",
     "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
