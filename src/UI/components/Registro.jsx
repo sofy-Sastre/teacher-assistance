@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Input2 from "./input2";
-import "./styles/Registro.css"
+
 
 export default function Registro() {
     return (
