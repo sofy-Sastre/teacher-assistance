@@ -14,7 +14,7 @@ export default function Registro() {
                     </div>
 
                     <div>
-                        <Input2 nombre="N° empleado" place="*****"></Input2>
+                        <Input2 nombre="N° Empleado" place="*****"></Input2>
                     </div>
 
                     <div>
