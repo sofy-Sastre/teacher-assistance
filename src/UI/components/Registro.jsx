@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Input2 from "./Input-props";
+import Input_props from "./Input_props";
 
 
 export default function Registro() {
