@@ -10,14 +10,10 @@ export default function Registro() {
                 <p>Complete los siguientes datos</p>
                 <form className="form" >
                     <div>
-                        {/* <label htmlFor="nombre">Nombre completo</label><br />
-                        <input <type="text" id="nombre" name="nombre" placeholder="Exequiel Wiedermann" /> */}
                         <Input2 nombre="Nombre Completo" place="ezequiel wiedermann"></Input2>
                     </div>
 
                     <div>
-                        {/* <label htmlFor="numero">N° de Empleado</label><br />
-                        <input type="text" id="numero" name="numero" placeholder="****" /> */}
                         <Input2 nombre="N° empleado" place="*****"></Input2>
                     </div>
 
