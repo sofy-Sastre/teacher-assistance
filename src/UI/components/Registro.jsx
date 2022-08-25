@@ -4,7 +4,7 @@ import Input2 from "./input2";
 
 export default function Registro() {
     return (
-        <Fragment>
+        <View>
             <div className="contenedor">
                 <h1>Registro</h1>
                 <p>Complete los siguientes datos</p>
@@ -33,7 +33,7 @@ export default function Registro() {
 
                 </form>
             </div>
-        </Fragment>
+        </View>
     );
 }
 
