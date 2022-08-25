@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-export default function Input2(props) {
+export default function Input_props(props) {
     return (
         <Fragment>
             <label htmlFor="numero">{props.nombre}</label>
