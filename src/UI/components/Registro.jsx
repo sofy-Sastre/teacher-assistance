@@ -22,8 +22,7 @@ export default function Registro() {
                     </div>
 
                     <div>
-                        <label htmlFor="contraseña">Contraseña</label><br />
-                        <input type="password" id="contraseña" name="contraseña" placeholder="Introduzca su contraseña" />
+                        <Input2 nombre=">Contraseña" place="Introduzca su contraseña"></Input2>
                     </div>
 
                     <div>
