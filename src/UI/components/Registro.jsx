@@ -18,7 +18,7 @@ export default function Registro() {
                     </div>
 
                     <div>
-                        <Input2 nombre="E-mail" place="correo@correo.com"></Input2>
+                        <Input2 nombre="E-mail" place="Correo@correo.com"></Input2>
                     </div>
 
                     <div>
