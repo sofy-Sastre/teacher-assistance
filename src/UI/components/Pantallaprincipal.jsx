@@ -1,4 +1,4 @@
- import react, {Fragment} from "react";
+ import React, {View} from "react";
 
 export default function Pantallapincipal (){
 return(
