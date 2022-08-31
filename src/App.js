@@ -1,6 +1,5 @@
 import React from "react";
 import './App.css';
-import { View } from 'react';
 import Login from './UI/components/Login';
 import Registro from './UI/components/Registro';
 import Pantallapincipal from './UI/components/Pantallaprincipal';
@@ -11,12 +10,10 @@ export default function App() {
   return (
     <div>
       <Login></Login>
-      <Registro></Registro>
-      <Pantallapincipal></Pantallapincipal>
-      <Cursos></Cursos>
-      <Input_cursos></Input_cursos>
+      {/* <Registro></Registro> */}
+
     </div>
-  );
+  );    
 }
 
 

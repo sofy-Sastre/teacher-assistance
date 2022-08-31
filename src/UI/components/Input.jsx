@@ -1,5 +1,4 @@
 import React from "react";
-import { View } from "react";
 import "./styles/Input.css";
 import { Row, Col} from "react-bootstrap";
 

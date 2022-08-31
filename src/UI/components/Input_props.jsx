@@ -1,4 +1,4 @@
-import React, {View} from "react";
+import React from "react";
 
 
 export default function Input_props(props) {

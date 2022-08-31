@@ -1,5 +1,4 @@
 import React from "react";
-
 import Input_props from "./Input_props";
 
 
