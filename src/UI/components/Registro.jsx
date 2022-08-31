@@ -1,14 +1,15 @@
 import React from "react";
 import Input_props from "./Input_props";
+import "./styles/Registro.css";
 
 
 export default function Registro() {
     return (
-        <div>
-            <div className="contenedor">
-                <h1>Registro</h1>
+        <div className="contenedor" >
+            <div >
+                <h1 className="titulo">Registro</h1>
                 <p>Complete los siguientes datos</p>
-                <form className="form" >
+                <form >
                     <div>
                         <Input_props nombre="Nombre Completo" place="Nombre y Apellido"></Input_props>
                     </div>
@@ -22,7 +23,7 @@ export default function Registro() {
                     </div>
 
                     <div>
-                        <Input_props nombre=">Contraseña" place="Introduzca su contraseña"></Input_props>
+                        <Input_props nombre="Contraseña" place="Introduzca su contraseña"></Input_props>
                     </div>
 
                     <div>

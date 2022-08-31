@@ -1,0 +1,12 @@
+.contenedor{
+    background-color: #c8b3dc;
+    height: 789px;
+    text-align: center;
+
+}
+
+.titulo {
+    font-style: italic;
+    margin-top:0;
+    text-align: center;
+}
