@@ -5,8 +5,15 @@
 
 }
 
+.img{
+    padding-left: 300px;
+}
+
+
 .titulo {
     font-style: italic;
     margin-top:0;
     text-align: center;
+    justify-content: left;
+    font-size: 30px;
 }

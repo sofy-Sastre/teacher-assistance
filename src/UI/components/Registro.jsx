@@ -7,6 +7,8 @@ export default function Registro() {
     return (
         <div className="contenedor" >
             <div >
+                <img src={require('./logo epet 20.png')} className="img" height={80} width={70} />
+
                 <h1 className="titulo">Registro</h1>
                 <p>Complete los siguientes datos</p>
                 <form >
