@@ -1,11 +1,10 @@
 import React from "react";
-import { View } from "react";
 import Input_props from "./Input_props";
 
 
 export default function Registro() {
     return (
-        <View>
+        <div>
             <div className="contenedor">
                 <h1>Registro</h1>
                 <p>Complete los siguientes datos</p>
@@ -33,7 +32,7 @@ export default function Registro() {
 
                 </form>
             </div>
-        </View>
+        </div>
     );
 }
 

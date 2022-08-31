@@ -1,11 +1,11 @@
-import React, {View} from "react";
+import React from "react";
 
 
 export default function Input_props(props) {
     return (
-        <View>
+        <div>
             <label htmlFor="numero">{props.nombre}</label>
             <input className="input" type="text" id="numero" name="numero" placeholder={props.place} />
-        </View>
+        </div>
     )
 }
