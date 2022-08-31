@@ -5,7 +5,7 @@ import { Row, Col} from "react-bootstrap";
 import "./styles/Login.css";
 import Input from "./Input";
 import Boton from "./Boton"
-export default function Login() {
+export default function Login({navigation}) {
     return (
         <div className="contenedor">
             <Container className="centrar">
@@ -17,7 +17,9 @@ export default function Login() {
                             <Input nombre="N° de empleado" placeh="Introduzca su n° de empleado"></Input>
                             <Input nombre="Contraseña" placeh="Introduzca su contraseña"></Input>
                             <Boton></Boton>
-                            <p ><a className="registrar" href="#">¿No tienes cuenta? Registrate</a></p>
+                            <p>
+                                <button onClick={() => navigation.navigate("PantallaRegistro")}><a className="registrar" href="#">¿No tienes cuenta? Registrate</a></button>
+                            </p>
                         </form>
                     </Col>
                 </Row>

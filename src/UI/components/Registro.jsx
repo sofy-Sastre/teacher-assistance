@@ -2,7 +2,7 @@ import React from "react";
 import Input_props from "./Input_props";
 
 
-export default function Registro() {
+export default function Registro({navigation}) {
     return (
         <div>
             <div className="contenedor">
