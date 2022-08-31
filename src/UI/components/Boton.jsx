@@ -5,7 +5,7 @@ export default function Input(props) {
     return (
         <Fragment>
             <Row>
-            <button className="boton">Iniciar sesion</button><br />
+            <button className="boton">Inicio sesion</button><br />
             </Row>
         </Fragment>
 
