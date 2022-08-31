@@ -3,9 +3,9 @@ import Input_props from "./Input_props";
 import "./styles/Registro.css";
 
 
-export default function Registro({navigation}) {
+export default function Registro() {
     return (
-        <div className="contenedor" >
+        <div className="registro" >
             <div >
                 <img src={require('./logo epet 20.png')} className="img" height={80} width={70} />
                 <div className="titulo">

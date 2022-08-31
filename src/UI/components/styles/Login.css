@@ -1,23 +1,22 @@
-.centrar{
+.centrar-login{
     height: 789px;
     background-color: #c8b3dc;
 }
 
-
-.titulo {
+.titulo-login {
     font-style: italic;
     margin-top:0;
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 40px;
 }
-.registrar {      
+.registrar-login {      
     text-decoration: none;
     color: inherit;
     font-weight: bold;
 }
 
-.contenedor {
+.contenedor-login {
 text-align: center;
 justify-content: center;
-}
+} 
