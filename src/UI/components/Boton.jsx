@@ -6,7 +6,7 @@ export default function Input(props) {
     return (
         <div>
             <Row>
-            <button className="boton">Iniciar sesion</button><br />
+            <button className="boton">Inicio sesion</button><br />
             </Row>
         </div>
 

@@ -1,7 +1,7 @@
 import React from "react";
 
- export default function Input_cursos(props){
-    return(
+export default function Input_cursos(props) {
+  return (
 
         <div>
             <div> 
@@ -10,4 +10,4 @@ import React from "react";
         </div>
     )
 
- }
+}

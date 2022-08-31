@@ -7,7 +7,7 @@ import Input from "./Input";
 import Boton from "./Boton"
 export default function Login() {
     return (
-        <Fragment>
+        <div className="contenedor">
             <Container className="centrar">
                 <Row>
                     <Col>
@@ -22,7 +22,7 @@ export default function Login() {
                     </Col>
                 </Row>
             </Container>
-        </Fragment>
+        </div>
     );
 }
 
