@@ -1,19 +1,18 @@
-.contenedor{
+.contenedor {
     background-color: #c8b3dc;
     height: 789px;
     text-align: center;
 
 }
 
-.img{
+.img {
     padding-left: 300px;
 }
 
 
 .titulo {
     font-style: italic;
-    margin-top:0;
-    text-align: center;
-    justify-content: left;
-    font-size: 30px;
+    margin-top: 0;
+    margin-right: 130px;
+    font-size: 20px;
 }
