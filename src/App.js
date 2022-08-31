@@ -4,7 +4,7 @@ import Login from './UI/components/Login';
 import Registro from './UI/components/Registro';
 import Pantallaprincipal from './UI/components/Pantallaprincipal';
 import Cursos from './UI/components/Cursos';
-import Input_cursos from './UI/components/Input_cursos';
+
 
 
 
@@ -12,8 +12,9 @@ export default function App() {
   return (
     <div>
       {/* <Login></Login> */}
-      {/* <Registro></Registro> */}
-      {/* <Pantallaprincipal></Pantallaprincipal> */}
+      <Registro></Registro>
+      {/* <Pantallapincipal></Pantallapincipal> */}
+      {/* <Cursos></Cursos> */}
     </div>
   );    
 }
@@ -26,4 +27,6 @@ export default function App() {
 
 
 
+
+    
 

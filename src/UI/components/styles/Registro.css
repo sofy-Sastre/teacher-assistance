@@ -1,0 +1,24 @@
+.contenedor {
+    background-color: #c8b3dc;
+    height: 789px;
+}
+
+.img {
+    padding-left: 300px;
+}
+
+
+.titulo {
+    font-style: italic;
+    margin-top: 0;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.boton-cuenta {
+    background-color: blueviolet;
+
+}
