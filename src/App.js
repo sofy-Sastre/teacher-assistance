@@ -9,9 +9,9 @@ import Input_cursos from './UI/components/Input_cursos';
 export default function App() {
   return (
     <div>
-      <Login></Login>
+      {/* <Login></Login> */}
       {/* <Registro></Registro> */}
-
+      <Pantallapincipal></Pantallapincipal>
     </div>
   );    
 }
