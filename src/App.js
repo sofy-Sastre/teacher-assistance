@@ -7,12 +7,11 @@ import Cursos from './UI/components/Cursos';
 
 
 
-
 export default function App() {
   return (
     <div>
-      <Login></Login>
-      {/* <Registro></Registro> */}
+      {/* <Login></Login> */}
+      <Registro></Registro>
       {/* <Pantallapincipal></Pantallapincipal> */}
       {/* <Cursos></Cursos> */}
     </div>
