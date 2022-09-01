@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import Login from './UI/components/Login';
 import Registro from './UI/components/Registro';
-import Pantallaprincipal from './UI/components/Pantallaprincipal';
+
 import Cursos from './UI/components/Cursos';
 import {
   BrowserRouter as Router,

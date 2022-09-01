@@ -1,10 +1,10 @@
 import react, {Fragment} from "react";
-import "./styles/Pantallapincipal.css";
+import "./styles/Pantallaprincipal.css";
 
 
-export default function Pantallapincipal (){
+export default function Pantallaprincipal (){
 return(
-    <view>
+    <div>
         <div className="logo">
         <div>
             <img src={require('./logo.png')} />
@@ -13,6 +13,7 @@ return(
             <p>From</p>
             <h1>ACS</h1>
         </div>
-    </view>  
+        </div>
+    </div>  
 );
 }

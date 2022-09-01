@@ -3,8 +3,10 @@ import React from "react";
 export default function Cursos (){
 return(
 
-<view>
-        <div className="contenedor"/>
+<div>
+        <div className="contenedor" >
+            
+        </div>
     <img src={require('./logo.png')} />
 
 
@@ -26,6 +28,6 @@ return(
         <div>
             <button> <a href="#">6º</a> </button>
         </div>
-    </view>
+    </div>
 );
 }
