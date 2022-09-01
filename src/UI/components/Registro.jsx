@@ -10,6 +10,7 @@ import {
   
 
 
+
 export default function Registro() {
     return (
         <div className="registro" >
@@ -38,9 +39,15 @@ export default function Registro() {
                         </div>
 
 
+<<<<<<< HEAD
                         <div className="boton-cuenta">
                             <button>Crear Cuenta</button><br />
                             <Link className="registrar-login" to="/Login">Login</Link>
+=======
+                        <div>
+                            <button className="boton">Crear Cuenta</button><br />
+                            <p><a>¿Ya tienes cuenta? Iniciar sesion</a></p>
+>>>>>>> c5ad8f0d77fea4a474ae17ae0fed978e4ee5c71b
                         </div>
 
                     </form>

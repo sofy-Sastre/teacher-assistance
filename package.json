@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
+    "6": "^0.0.1",
+=======
     "@react-navigation/native": "^6.0.12",
     "@react-navigation/native-stack": "^6.8.0",
+>>>>>>> 0ef923c516a93026bdb9133b720956bc39499b8f
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -19,7 +23,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
+    "start": "react-scripts {--openssl-legacy-provider} start",
+=======
     "start": "react-scripts start",
+>>>>>>> 0ef923c516a93026bdb9133b720956bc39499b8f
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
