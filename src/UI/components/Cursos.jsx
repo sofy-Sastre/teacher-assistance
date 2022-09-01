@@ -3,7 +3,11 @@ import react, {Fragment} from "react";
 export default function Cursos (){
 return(
 
-    <view>
+<view>
+        <div className="contenedor"/>
+    <img src={require('./logo.png')} />
+
+
         <div>
             <button> <a href="#">1º</a> </button>
         </div>
