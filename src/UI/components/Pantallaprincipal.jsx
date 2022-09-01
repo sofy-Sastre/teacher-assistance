@@ -1,14 +1,18 @@
- import React from "react";
+import react, {Fragment} from "react";
+import "./styles/Pantallapincipal.css";
+
 
 export default function Pantallapincipal (){
 return(
-    <div>
+    <view>
+        <div className="logo">
         <div>
             <img src={require('./logo.png')} />
-            <h2>From</h2>
-            <h1>ACS</h1>
         </div> 
-    </div>
-    
+        <div className="texto">
+            <p>From</p>
+            <h1>ACS</h1>
+        </div>
+    </view>  
 );
 }
