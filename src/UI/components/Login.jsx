@@ -5,6 +5,14 @@ import { Row, Col} from "react-bootstrap";
 import "./styles/Login.css";
 import Input from "./Input";
 import Boton from "./Boton"
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+  } from "react-router-dom";
+
+
 export default function Login() {
     return (
         <div className="contenedor-login">
@@ -18,7 +26,7 @@ export default function Login() {
                             <Input nombre="Contraseña" placeh="Introduzca su contraseña"></Input>
                             <Boton></Boton>
                             <p>
-                                <a className="registrar-login" href="#">¿No tienes cuenta? Registrate</a>
+                            <Link className="registrar-login" to="/Registro">¿No tienes cuenta? Registrate</Link>
                             </p>
                         </form>
                     </Col>

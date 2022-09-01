@@ -1,6 +1,13 @@
 import React from "react";
 import Input_props from "./Input_props";
 import "./styles/Registro.css";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+  } from "react-router-dom";
+  
 
 
 export default function Registro() {
@@ -33,7 +40,7 @@ export default function Registro() {
 
                         <div className="boton-cuenta">
                             <button>Crear Cuenta</button><br />
-                            <p><a>¿Ya tienes cuenta? Iniciar sesion</a></p>
+                            <Link className="registrar-login" to="/Login">Login</Link>
                         </div>
 
                     </form>
