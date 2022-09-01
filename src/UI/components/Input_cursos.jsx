@@ -1,13 +1,13 @@
-import react, {Fragment} from "react";
+import React from "react";
 
- export default function Input_cursos(props){
-    return(
+export default function Input_cursos(props) {
+  return (
 
-        <Fragment>
+        <div>
             <div> 
               <Input_cursos place="2º"> </Input_cursos>
             </div>
-        </Fragment>
+        </div>
     )
 
- }
+}

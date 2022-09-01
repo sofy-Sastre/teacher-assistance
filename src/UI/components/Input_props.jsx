@@ -1,10 +1,11 @@
-import { Fragment } from "react";
+import React from "react";
+import "./styles/Registro.css"
 
 export default function Input_props(props) {
     return (
-        <Fragment>
-            <label htmlFor="numero">{props.nombre}</label>
+        <div>
+            <label htmlFor="numero" >{props.nombre}</label><br />
             <input className="input" type="text" id="numero" name="numero" placeholder={props.place} />
-        </Fragment>
+        </div>
     )
 }

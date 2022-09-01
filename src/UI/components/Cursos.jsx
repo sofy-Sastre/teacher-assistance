@@ -1,4 +1,4 @@
-import react, {Fragment} from "react";
+import React from "react";
 
 export default function Cursos (){
 return(
