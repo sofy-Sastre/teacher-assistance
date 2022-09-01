@@ -3,6 +3,7 @@ import Input_props from "./Input_props";
 import "./styles/Registro.css";
 
 
+
 export default function Registro() {
     return (
         <div className="registro" >
@@ -31,8 +32,8 @@ export default function Registro() {
                         </div>
 
 
-                        <div className="boton-cuenta">
-                            <button>Crear Cuenta</button><br />
+                        <div>
+                            <button className="boton">Crear Cuenta</button><br />
                             <p><a>¿Ya tienes cuenta? Iniciar sesion</a></p>
                         </div>
 
