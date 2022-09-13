@@ -39,7 +39,7 @@ export default function Registro() {
                         </div>
                         <div className="boton-cuenta">
                             <button>Crear Cuenta</button><br />
-                            <Link className="registrar-login" to="/Login">Login</Link>
+                            <Link className="registrar-login" to="/Login">¿Ya tienes cuenta? Inicia sesión</Link>
                         </div>
 
                     </form>
